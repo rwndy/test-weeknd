@@ -1,0 +1,28 @@
+@import '../abstract/variables';
+.footer {
+  background-color: $rich-blue ;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__weeknd {
+    margin: 0;
+    color: $color-primary;
+    font-size: 16px;
+  }
+
+  &__alpha {
+    align-items: center;
+    border: 1px solid $color-primary;
+    padding: 3px 10px 5px;
+    border-radius: 12px;
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 300;
+      color: $color-primary;
+    }
+  }
+}

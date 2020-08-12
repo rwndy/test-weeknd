@@ -1,0 +1,33 @@
+@import '../abstract/variables';
+.navigation {
+  display: flex;
+  padding: 17px 0px;
+  background-color: $color-primary;
+
+  &__brand {
+    display: flex;
+    flex-direction: row;
+
+    a.img-brand {
+      margin-right: 13px;
+    }
+  }
+
+  &__notif {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__greeting {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+  }
+
+  &__username {
+    margin-bottom: 0px;
+    margin-top: -5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

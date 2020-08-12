@@ -1,0 +1,71 @@
+@media only screen and (max-device-width: 480px), 
+only screen and (max-width: 480px) {
+  .header {
+
+    &__container {
+      padding-top: 84px;
+    }
+
+    &__title {
+      font-size: 52px;
+      line-height: 0.98;
+    }
+
+    &__sub-title {
+      font-size: 16px;
+    }
+  
+  }
+
+  .section {
+
+    &__quote {
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+
+    &__w-533 {
+      width: 90% !important;
+    }
+
+    &__bitmap-right {
+      img {
+        bottom: -80px;
+      }
+    }
+
+    &__testimoni {
+      
+
+      &-box:before {
+        left: 50px;
+        z-index: -1;
+        top: -18px;
+      }
+
+      &-title {
+        text-align: left;
+      }
+
+      &-pov-title {
+        text-align: left;
+      }
+
+      &-pov-sub {
+        text-align: left;
+      }
+
+      &-tips--box {
+        flex-wrap: wrap;
+      }
+    }
+
+    &-path {
+      display: none;
+    }
+    
+  }
+}
